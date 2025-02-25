@@ -7,6 +7,10 @@ In this repository we have done all of the data analysis and fine-tunining work 
 1. We installed dependencies and load the dataset from hugging face, and then fine tuned llama 3.2 1B model in `Spark2.ipynb` notebook.
 2. We deployed the model on hugging face and also on ollama.
 
+![Screenshot 2025-02-20 214332](https://github.com/user-attachments/assets/013bd334-1871-4c51-ba22-18d012ded893)
+![Screenshot 2025-02-20 214056](https://github.com/user-attachments/assets/a28c8863-1649-4e8d-9d68-375b74dd80a3)
+
+
 ## Future work:
 1. We have create a new dataset contains the English conversations in the first dataset and also with Arabic conversations and then we shuffled them using Pandas as we did in `data_preparation.ipynb` notebook.
 2. Soon we will train the model on the new dataset to allow users to send Arabic and English messages to our model.
